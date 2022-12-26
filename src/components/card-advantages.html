@@ -1,0 +1,21 @@
+<article class="card">
+    <figure class="wrap-card">
+        <div class="card-title">{{cardTitle}}</div>
+        <div class="card-detail">
+            <picture>
+                <source media="(max-width:767px)" srcset="{{ cardImageMobile }}" class="img-main" />
+                <source media="(max-width:1200px)" srcset="{{ cardImageTablet }}" class="img-main" />
+                <div class="card-image img-main">
+                    <img src="{{cardIcon}}" class="card-image__advantages" alt="icon">
+                </div>
+            </picture>
+            <div class="extesion">{{extension}}</div>
+            <div class="description">
+                <p class="description-detail">
+                {{description}}
+                </p>
+            </div>
+            <div class="findmore" >FIND MORE</div>
+        </div>
+    </figure>
+</article>  

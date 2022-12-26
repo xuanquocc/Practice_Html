@@ -6,11 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <h1>hello</h1>
+    <include src="../layout/header.html"></include>
+
+    <include src="../layout/main.html"></include>
+
+    <include src="../layout/footer.html"></include>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js">
+    </script>
+    <script>
+        HTMLInspector.inspect();
+    </script>
 </body>
 
 </html>

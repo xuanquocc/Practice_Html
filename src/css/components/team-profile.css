@@ -1,0 +1,24 @@
+.team-profile{
+    width: 400px;;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+.team-profile__content{
+    max-width: 264px;
+    max-height: 72px;
+    margin-left: 28px;
+}
+
+.avatar-image{
+    display: flex;
+    flex-direction: row;
+}
+.team-profile__image{
+    margin: 20px 0;
+}
+.job{
+    padding: 10px 0;
+}

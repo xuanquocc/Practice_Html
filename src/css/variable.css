@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Roboto, ;
+    src: url('/src/assets/fonts/Roboto-Regular.ttf');
+}
+:root {
+    --nav-bg: #4B4B4B;
+    --color-logo: #EBCB80;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,body, figure {
+    margin: 0;
+    font-family: Roboto;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+
+
+.title--main {
+    font-size: 44px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 16px;
+    color: var(--text-color);
+    text-align: center;
+}

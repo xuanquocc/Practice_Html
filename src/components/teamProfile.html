@@ -1,0 +1,18 @@
+<article class="team-profile">
+<div class="content">
+    <figure class="avatar-image">
+        <div class="team-profile__image">
+            <picture>
+                <source media="(max-width:767px)" srcset="{{ cardImageMobile }}" class="img-main" />
+                <source media="(max-width:1200px)" srcset="{{ cardImageTablet }}" class="img-main" />
+                <img src="{{ cardImage }}" class="img-main card-image__primary" alt="avatar 1 image" />
+            </picture>
+        </div>
+        <div class="team-profile__content">
+            <h3 class="sub-title">{{ nameMember }}</h3>
+            <p class="job">{{job}}</p>
+            <p>{{ description }}</p>
+        </div>
+    </figure>
+</div>
+</article>

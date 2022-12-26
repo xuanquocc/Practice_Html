@@ -1,0 +1,293 @@
+<main>
+    <section class="team">
+        <div class="container">
+            <h2 class="title--main main-team__title">Our Team</h2>
+            <div class="team">
+                <div class="box1">
+                    <include src="../components/teamProfile.html"
+                locals='{
+                    "cardImageMobile": "../assets/images/desktop/person.png",
+                    "cardImage": "../assets/images/desktop/person.png",
+                    "cardImageTablet" : "../assets/images/desktop/person.png",
+                    "nameMember" : "Craig Todd",
+                    "job" : "CEO",
+                    "description" : "Like the majority of sales peple, I visti a huge number of clients and prospects every month"
+                }'
+                ></include>
+                <include src="../components/teamProfile.html"
+                locals='{
+                    "cardImageMobile": "../assets/images/desktop/person1.png",
+                    "cardImage": "../assets/images/desktop/person1.png",
+                    "cardImageTablet" : "../assets/images/desktop/person1.png",
+                    "nameMember" : "Vera Hopkins",
+                    "job" : "UX Lead",
+                    "description" : "Differentiate Yourself And Attract More Attension Sales And Profits"
+                }'
+                ></include>
+                
+                <include src="../components/teamProfile.html"
+                locals='{
+                    "cardImageMobile": "../assets/images/desktop/person2.png",
+                    "cardImage": "../assets/images/desktop/person2.png",
+                    "cardImageTablet" : "../assets/images/desktop/person2.png",
+                    "nameMember" : "Jennie Graham",
+                    "job" : "UX/UI Designer",
+                    "description" : "WorldPress Version 2 0 3 Review"
+                }'
+                ></include>
+                </div>
+                <div class="box2">
+                    <include src="../components/teamProfile.html"
+                locals='{
+                    "cardImageMobile": "../assets/images/desktop/person3.png",
+                    "cardImage": "../assets/images/desktop/person3.png",
+                    "cardImageTablet" : "../assets/images/desktop/person3.png",
+                    "nameMember" : "Eunice Wong",
+                    "job" : "Marketing consultant",
+                    "description" : "Advertising Internet Online Opportunities To Explore"
+                }'
+                ></include>
+                <include src="../components/teamProfile.html"
+                locals='{
+                    "cardImageMobile": "../assets/images/desktop/person4.png",
+                    "cardImage": "../assets/images/desktop/person4.png",
+                    "cardImageTablet" : "../assets/images/desktop/person4.png",
+                    "nameMember" : "Chase Meyer",
+                    "job" : "Front-end Developer",
+                    "description" : "Search Engine Optimization And Advertising"
+                }'
+                ></include>
+                <include src="../components/teamProfile.html"
+                locals='{
+                    "cardImageMobile": "../assets/images/desktop/person5.png",
+                    "cardImage": "../assets/images/desktop/person5.png",
+                    "cardImageTablet" : "../assets/images/desktop/person5.png",
+                    "nameMember" : "Johnny Vargas",
+                    "job" : "Back-end Developer",
+                    "description" : "Maintain Your PC S Performance With PC Programs"
+                }'
+                ></include>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plan">
+        <h2 class="title--main title_price">Choose Your Plan</h2>
+            <div class="wrapper">
+                <div class="plan-content__wrapper">
+                    <div class="silver">
+                        <include src="../components/card.html" locals='{
+                        "cardTitle": "SILVER",
+                        "price": "49",
+                        "account": "Personal Account",
+                        "data": "25 GB Discspace",
+                        "uploads": "Uploads per day"
+                        }'></include>
+                    </div>
+    
+                    <div class="gold">
+                        <include src="../components/card.html" locals='{
+                            "cardTitle": "GOLD",
+                            "price": "99",
+                            "account": "Personal Account",
+                            "data": "50 GB Discspace",
+                            "uploads": "Uploads per day"
+                        }'></include>
+                    </div>
+    
+                    <div class="platinium">
+                        <include src="../components/card.html" locals='{
+                            "cardTitle": "PLATINIUM",
+                            "price": "299",
+                            "account": "Team Account",
+                            "data": "500 GB Discspace",
+                            "uploads": "Unlimited Uploads per day"
+                        }'></include>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="business">
+        <div class="container">
+            <figure class="business-avatar__wrap">
+                <img src="../assets/images/desktop/Rectangle.png" alt="Ida Stephents" class="business-avatar">
+                <figcaption class="name-business">Ida Stephens — Noir Project</figcaption>
+            </figure>
+            <div class="business_description">
+                <figure class="about-slider__icon">
+                    <img src="../assets/images/desktop/prev.png" alt="pre-icon" class="pre-icon icon-business">
+                </figure>
+                <p class="content-business">“Conversations can be a tricky business.
+                     Sometimes, decoding what is said with what is meant is difficult at best.
+                      However, communication is a necessary tool in todays world.
+                       It’s often been the case were one party completely miscommunicates to another due 
+                       to a misunderstanding between parties.”
+                </p>
+                <figure class="about-slider__icon">
+                    <img src="../assets/images/desktop/next.png" alt="" class="next-icon icon-business">
+                </figure>
+            </div>
+            <div class="slider-pagination">
+                <div class="point-pagination"></div>
+                <div class="point-pagination"></div>
+                <div class="point-pagination point-pagination__middle"></div>
+                <div class="point-pagination"></div>
+                <div class="point-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <h2 class="title--main title_advantages">Advantages</h2>
+
+        <p class="sub-title sub-title__advantages">One more thing! Any time we start something new it is exciting and we are very motivated and committed. </p>
+            <div class="wrapper">
+                <div class="plan-content__wrapper">
+                    <div class="platinium">
+                        <include src="../components/card-advantages.html" locals='{
+                        "cardImageMobile": "../assets/images/desktop/safe.png",
+                        "cardImageTablet" : "../assets/images/desktop/safe.png",
+                        "cardTitle": "SECURE",
+                        "cardIcon":"../assets/images/desktop/safe.png",
+                        "extension": "YOUR DATA IS PROTECTED",
+                        "description" :"No matter how far along you are in your sophistication as an amateur astronomer…"
+                        }'></include>
+                    </div>
+    
+                    <div class="platinium middle">
+                        <include src="../components/card-advantages.html" locals='{
+                        "cardImageMobile": "../assets/images/desktop/aesthetic.png",
+                        "cardImageTablet" : "../assets/images/desktop/aesthetic.png",
+                        "cardTitle": "SECURE",
+                        "cardIcon":"../assets/images/desktop/aesthetic.png",
+                        "extension": "UNIQUE DESIGN",
+                        "description" :"Acres of Diamonds… you’ve read the famous story, or at least had it related to you."
+                        }'></include>
+                    </div>
+
+                    <div class="platinium">
+                        <include src="../components/card-advantages.html" locals='{
+                        "cardImageMobile": "../assets/images/desktop/neat-icon.png",
+                        "cardImageTablet" : "../assets/images/desktop/neat-icon.png",
+                        "cardTitle": "SECURE",
+                        "cardIcon":"../assets/images/desktop/neat-icon.png",
+                        "extension": "ACCURATE IN DETAILS",
+                        "description" :"Some days a motivational quote can provide a quick pick-me-up."
+                        }'></include>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="places">
+        <div class="container">
+            <div class="place-title title--main">Places</div>
+            <div class="location">
+                <div class="name-location">SAN FRANCISCO</div>
+                <div class="name-location">SOUTH LILIANA</div>
+                <div class="name-location">BLICK VIEW</div>
+                <div class="name-location">NEW RAVEN</div>
+            </div>
+            <div class="location-image">
+                <div class="location-image__wrapper">
+                    <img src="../assets/images/desktop/Card1.png" alt="card1" class="img-location">
+                    <img src="../assets/images/desktop/Card2.png" class="img-location" alt="card1">
+                    <img src="../assets/images/desktop/Card3.png" class="img-location" alt="card1">
+                    <img src="../assets/images/desktop/Card4.png" class="img-location" alt="card1">
+                    <img src="../assets/images/desktop/Card5.png" class="img-location" alt="card1">
+                    <img src="../assets/images/desktop/Card6.png" class="img-location" alt="card1">
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="create-account">
+        <div class=" account-container">
+            <div class="title-account title--main">Create An Account</div>
+            <div class="form-wrapper">
+                <div class="form-create">
+                    <div class="form-create__title">SIGN UP</div>
+                    <div class="form-create__content">
+                        <input type="email" name="" class="form-a email-form " placeholder="Email" id="">
+                        <input type="email" name="" class="form-a password-form" placeholder="Password" id="">
+                        <input type="email" name="" class="form-a password-form" placeholder="Confirm Password" id="">
+                    </div>
+                </div>
+                <a class="have-account">Already Have an account ?</a>
+                <div class="form-submit">SIGN UP</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container-contact">
+            <h2 class="title--main">Contact Us</h2>
+            <div class="contact-content__wrapper">
+                <div class="information-contact">
+                    <div class="contact-title">Get In Touch</div>
+                    <div class="contact-location">
+                        <div class="icon-location__contact">
+                            <img src="../assets/images/desktop/location.png" alt="location-icon">
+                        </div>
+                        <div class="info-location">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</div>
+                    </div>
+                    <div class="contact-email">
+                        <div class="icon-mail__contact">
+                            <img src="../assets/images/desktop/mail.png" alt="mail-icon">
+                        </div>
+                        <div class="mail">contact@hofmannui.net</div>
+                    </div>
+                    <div class="contact-phone">
+                        <div class="icon-phone__contact">
+                            <img src="../assets/images/desktop/phone.png" alt="phone-icon">
+                        </div>
+                        <div class="group-phoneNumber">
+                            <div class="phoneNumber">793-891-7938</div>
+                            <div class="phoneNumber">512-915-5628</div>
+                            <div class="phoneNumber">952-775-6021</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-contact">
+                    <div class="form-contact__NameMail">
+                        <div class="name-input">
+                            <label class="label_title">Name:</label>
+                            <input type="text" name="" class="input-name" id="">
+                        </div>
+                        <div class="email-input">
+                            <label for="" class="label_title">Email:</label>
+                            <input type="email" name="" class="input-email" id="">
+                        </div>
+                    </div>
+                    <div class="message:">
+                        <label for="" class="label_title">Message:</label>
+                        <textarea name="" id="" class="textArea" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="submit-contact">SUBMIT</div>
+                </div>
+
+                <div class="credits">
+                    <div class="info-credits">
+                        <div class="credit-title">Credits</div>
+                        <div class="credit-description">In order to discuss the general function of the logo, we must firstly identify and define the environment where this will have to fulfill its function.</div>
+                    </div>
+
+                    <div class="social-network">
+                        <div class="social-title">Follow</div>
+                        <div class="group--icon__social">
+                            <img src="../assets/images/desktop/Fill4.png" class="social-icon" alt="Fill4">
+                            <img src="../assets/images/desktop/linkedin.png" class="social-icon" alt="linkedin">
+                            <img src="../assets/images/desktop/google-plus.png" class="social-icon" alt="google-plus">
+                            <img src="../assets/images/desktop/twitter.png" class="social-icon" alt="">
+                            <img src="../assets/images/desktop/facebook.png" class="social-icon" alt="facebook">
+                            <img src="../assets/images/desktop/instagram.png" class="social-icon" alt="instagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
